@@ -33,8 +33,9 @@ class Booking extends \BookTablePoster
         $this->authorLn = $authorLn;
         $this->email = $email;
         $this->content = $mobileNr;
-        $this->postdate = $currentDate->format('Y-m-d H:i:s');
+        $this->postdate = $bookingDate;
         $this->bookingMsg = $bookingMsg;
+        $this->currentDate = $currentDate->format('Y-m-d H:i:s');
 
     }
 
@@ -67,7 +68,7 @@ class Booking extends \BookTablePoster
     /**
      * @return string
      */
-    public function getTitle(): string
+    public function getEmail(): string
     {
         return $this->email;
     }

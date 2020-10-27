@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if ($isFormValid) {
-        $booking = new Booking ("$firstname", "$lastname", "$email", "$mobileNr", "$bookingDate", "$bookingMsg" . '');
+        $booking = new Booking ("$firstname", "$lastname", "$email", (int)"$mobileNr", "$bookingDate", "$bookingMsg" . '');
         $booking->savePost();
 
         // RESET FORM FIELDS

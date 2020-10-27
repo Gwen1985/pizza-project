@@ -23,14 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/bookTableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/bookTableController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/BookTablePoster.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/BookTablePoster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/bookTableViewForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/bookTableViewForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/orderPizzaViewForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/orderPizzaViewForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Booking.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603729748821</updated>
       <workItem from="1603729749957" duration="1596000" />
-      <workItem from="1603736330193" duration="22763000" />
+      <workItem from="1603736330193" duration="26805000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup mvc structure">
       <created>1603792215700</created>
@@ -110,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603797642206</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="setting up PDO connection and Database">
+      <created>1603809337584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603809337584</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +133,8 @@
     <MESSAGE value="setup form structure" />
     <MESSAGE value="Added UML DIAGRAMS" />
     <MESSAGE value="add assets folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add assets folder" />
+    <MESSAGE value="setting up PDO connection and Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting up PDO connection and Database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603808660248">
@@ -156,10 +157,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603796266066" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603797648376">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603809343898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603797648376" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603809343898" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603809189505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -28,7 +28,7 @@ class BookTablePoster
     {
         try {
             $pdo = self::openConnection();
-            $sql = "INSERT INTO customers (`fname`, `lname`, `email`, `mobile-nr`, `bookingdate`, 'bookingmsg') VALUES ('" . $bookingTable->getAuthorFn() . "', '" . $guestbookItem->getAuthorLn() . "', '" . $guestbookItem->getTitle() . "', '" . $guestbookItem->getContent() . "', '" . $guestbookItem->getPostdate() . "')";
+            $sql = "INSERT INTO customers (`fname`, `lname`, `email`, `mobile-nr`, `bookingdate`, 'bookingmsg') VALUES ('" . $bookingTable->getAuthorFn() . "', '" . $bookingTable->getAuthorLn() . "', '" . $bookingTable->getEmail() . "', '" . $bookingTable->getMobile() . "', '" . $bookingTable->getBookingDate() . "', " . $bookingTable->getBookingMsg() . "')";
             $handle = $pdo->prepare($sql);
             $handle->execute();
         } catch (Exception $e) {
