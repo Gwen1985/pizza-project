@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0cf5053-43f8-46c2-8f64-eb1a17c78174" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pizza-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/bookTableController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/orderPizzaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/BookTablePoster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/OrderPizzaPoster.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/bookTableViewForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/orderPizzaViewForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styling/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styling/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styling/style.sass" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jQIAtqknfj8Gv1V4bZGpy7fFFd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0cf5053-43f8-46c2-8f64-eb1a17c78174" name="Default Changelist" comment="" />
+      <created>1603729748821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603729748821</updated>
+      <workItem from="1603729749957" duration="1596000" />
+      <workItem from="1603736330193" duration="8303000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1603786889424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603786889424" />
+    <state x="763" y="242" key="NewPhpClassDialog" timestamp="1603790664529">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="242" key="NewPhpClassDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603790664529" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603791118335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603791118335" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1603745630280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603745630280" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603791659733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603791659733" />
+  </component>
+</project>
