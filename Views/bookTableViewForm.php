@@ -35,9 +35,7 @@
 </div>
 
 
-
-
-<!--  value=" <?php echo $nameFirst;    ?> -->
-<!--  value=" <?php echo $nameLast;     ?> -->
-<!--  value=" <?php echo $mailAddress;  ?> -->
-<!--  value=" <?php echo $mobileNr;     ?> -->
+<!--  value=" <?php echo $nameFirst; ?> -->
+<!--  value=" <?php echo $nameLast; ?> -->
+<!--  value=" <?php echo $mailAddress; ?> -->
+<!--  value=" <?php echo $mobileNr; ?> -->

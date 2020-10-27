@@ -13,9 +13,6 @@ function autoLoader($className): void
     require_once $fullpath;
 }
 
-require 'Controllers/bookTableController.php';
-require 'Controllers/orderPizzaController.php';
-
 require 'Views/page.php';
 
 
