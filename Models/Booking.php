@@ -3,51 +3,50 @@
 
 declare(strict_types=1);
 
-class Booking extends \BookTablePoster
+class Booking
 {
-
-    const MAX_POSTS = 5;
+//    const MAX_POSTS = 100;
     private string $authorFn;
     private string $authorLn;
     private string $email;
-    private int $mobileNr;
+    private string $mobileNr;
     private string $bookingDate;
     private string $bookingMsg;
 
 
     /**
      * Booking constructor.
-     * @param string $authorFn
+     * @param string $firstName
      * @param string $authorLn
      * @param string $email
-     * @param int $mobileNr
+     * @param string $mobileNr
      * @param string $bookingDate
      * @param string $bookingMsg
      * @throws Exception
      */
-    public function __construct(string $authorFn, string $authorLn, string $email, int $mobileNr, string $bookingDate, string $bookingMsg)
+    public function __construct(string $authorFn, string $authorLn, string $email, string $mobileNr, string $bookingDate, string $bookingMsg)
     {
-        $currentDate = new DateTime("now", new DateTimeZone('Europe/Brussels'));
+//        $currentDate = new DateTime("now", new DateTimeZone('Europe/Brussels'));
 
         $this->authorFn = $authorFn;
         $this->authorLn = $authorLn;
         $this->email = $email;
-        $this->content = $mobileNr;
-        $this->postdate = $bookingDate;
+        $this->mobileNr = $mobileNr;
+        $this->bookingDate = $bookingDate;
         $this->bookingMsg = $bookingMsg;
-        $this->currentDate = $currentDate->format('Y-m-d H:i:s');
+//        $this->currentDate = $currentDate->format('Y-m-d H:i:s');
 
     }
 
-    public static function getPosts(): array
-    {
-        $bookings = [];
-
-        foreach (BookTablePoster::get() as $booking) {
-            $bookings[] = $booking;
-        }
-        return array_slice(array_reverse($bookings), 0, self::MAX_POSTS - 1);
-    }
+//    public static function getPosts(): array
+//    {
+//        $bookings = [];
+//
+//        foreach (BookTablePoster::get() as $booking) {
+//            $bookings[] = $booking;
+//        }
+//        return array_slice(array_reverse($bookings), 0, self::MAX_POSTS - 1);
+//    }
 
     /**
      * @return string
@@ -74,9 +73,9 @@ class Booking extends \BookTablePoster
     }
 
     /**
-     * @return int
+     * @return string
      */
-    public function getMobile(): int
+    public function getMobile(): string
     {
         return $this->mobileNr;
     }
@@ -94,7 +93,7 @@ class Booking extends \BookTablePoster
      */
     public function getBookingMsg(): string
     {
-        require $this->bookingMsg;
+        return $this->bookingMsg;
     }
 
     public function savePost(): void

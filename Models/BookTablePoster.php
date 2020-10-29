@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 
 class BookTablePoster
 {
@@ -9,7 +10,7 @@ class BookTablePoster
         $dbhost = "localhost";
         $dbuser = "root";
         $dbpass = "";
-        $db = "pizza-project";
+        $db = "pizza_project";
 
         $driverOptions = [
             PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'",
@@ -24,11 +25,11 @@ class BookTablePoster
         return $pdo;
     }
 
-    public static function save(BookTablePoster $bookingTable): void
+    public static function save(Booking $booking): void
     {
         try {
             $pdo = self::openConnection();
-            $sql = "INSERT INTO customers (`fname`, `lname`, `email`, `mobile-nr`, `bookingdate`, 'bookingmsg') VALUES ('" . $bookingTable->getAuthorFn() . "', '" . $bookingTable->getAuthorLn() . "', '" . $bookingTable->getEmail() . "', '" . $bookingTable->getMobile() . "', '" . $bookingTable->getBookingDate() . "', " . $bookingTable->getBookingMsg() . "')";
+            $sql = "INSERT INTO customers (`fname`, `lname`, `email`, `mobile-nr`, `bookingdate`, `bookingmsg`) VALUES ('" . $booking->getAuthorFn() . "', '" . $booking->getAuthorLn() . "', '" . $booking->getEmail() . "', '" . $booking->getMobile() . "', '" . $booking->getBookingDate() . "', '" . $booking->getBookingMsg() . "')";
             $handle = $pdo->prepare($sql);
             $handle->execute();
         } catch (Exception $e) {
@@ -36,20 +37,20 @@ class BookTablePoster
         }
     }
 
-    public static function get()
-    {
-        $data = [];
-        try {
-            $pdo = self::openConnection();
-            $sql = "SELECT * FROM customers";
-            $handle = $pdo->prepare($sql);
-            $handle->execute();
-            $data = $handle->fetchAll();
-        } catch (Exception $e) {
-            echo 'Caught exception: ', $e->getMessage(), "\n";
-        }
-
-        return $data;
-
-    }
+//    public static function get()
+//    {
+//        $data = [];
+//        try {
+//            $pdo = self::openConnection();
+//            $sql = "SELECT * FROM customers";
+//            $handle = $pdo->prepare($sql);
+//            $handle->execute();
+//            $data = $handle->fetchAll();
+//        } catch (Exception $e) {
+//            echo 'Caught exception: ', $e->getMessage(), "\n";
+//        }
+//
+//        return $data;
+//
+//    }
 }
