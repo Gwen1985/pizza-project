@@ -13,7 +13,7 @@ function autoLoader($className): void
     require_once $fullpath;
 }
 
-require 'Views/page.php';
+require 'Views/homePage.php';
 
 
 

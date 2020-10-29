@@ -20,13 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0cf5053-43f8-46c2-8f64-eb1a17c78174" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Views/bookingPage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/bookTableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/bookTableController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/BookTablePoster.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/BookTablePoster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Booking.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/bookTableViewForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/bookTableViewForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/homePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1jQIAtqknfj8Gv1V4bZGpy7fFFd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,6 +65,20 @@
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="JavaScript Debug.header.php">
+    <configuration name="header.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pizza-project/Views/header.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="homePage.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pizza-project/Views/homePage.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.header.php" />
+        <item itemvalue="JavaScript Debug.homePage.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +90,7 @@
       <workItem from="1603729749957" duration="1596000" />
       <workItem from="1603736330193" duration="27792000" />
       <workItem from="1603874762413" duration="12766000" />
-      <workItem from="1603960144554" duration="2980000" />
+      <workItem from="1603960144554" duration="7822000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup mvc structure">
       <created>1603792215700</created>
@@ -123,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603816818693</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="PDO and Db connection fixed (working!)">
+      <created>1603963702593</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603963702593</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,9 +172,14 @@
     <MESSAGE value="Added UML DIAGRAMS" />
     <MESSAGE value="add assets folder" />
     <MESSAGE value="setting up PDO connection and Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up PDO connection and Database" />
+    <MESSAGE value="PDO and Db connection fixed (working!)" />
+    <option name="LAST_COMMIT_MESSAGE" value="PDO and Db connection fixed (working!)" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="667" y="162" key="#PHP" timestamp="1603966892292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="162" key="#PHP/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603966892292" />
     <state x="552" y="178" width="985" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603886017148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -162,38 +192,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603786889424" />
-    <state width="1293" height="213" key="GridCell.Tab.0.bottom" timestamp="1603885973671">
+    <state width="1293" height="447" key="GridCell.Tab.0.bottom" timestamp="1603964553650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="213" key="GridCell.Tab.0.bottom/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603885973671" />
-    <state width="1293" height="213" key="GridCell.Tab.0.center" timestamp="1603885973671">
+    <state width="1293" height="447" key="GridCell.Tab.0.bottom/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603964553650" />
+    <state width="1293" height="447" key="GridCell.Tab.0.center" timestamp="1603964553650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="213" key="GridCell.Tab.0.center/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603885973671" />
-    <state width="1293" height="213" key="GridCell.Tab.0.left" timestamp="1603885973671">
+    <state width="1293" height="447" key="GridCell.Tab.0.center/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603964553650" />
+    <state width="1293" height="447" key="GridCell.Tab.0.left" timestamp="1603964553650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="213" key="GridCell.Tab.0.left/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603885973671" />
-    <state width="1293" height="213" key="GridCell.Tab.0.right" timestamp="1603885973671">
+    <state width="1293" height="447" key="GridCell.Tab.0.left/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603964553650" />
+    <state width="1293" height="447" key="GridCell.Tab.0.right" timestamp="1603964553650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="213" key="GridCell.Tab.0.right/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603885973671" />
+    <state width="1293" height="447" key="GridCell.Tab.0.right/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603964553650" />
     <state x="763" y="242" key="NewPhpClassDialog" timestamp="1603807062894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="242" key="NewPhpClassDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603807062894" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603808637805">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603966528439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603808637805" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603966528439" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1603876240572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603876240572" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603816826411">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603963712420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603816826411" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603963712420" />
     <state x="883" y="465" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1603876235812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
