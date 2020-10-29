@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0cf5053-43f8-46c2-8f64-eb1a17c78174" name="Default Changelist" comment="" />
+    <list default="true" id="a0cf5053-43f8-46c2-8f64-eb1a17c78174" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/bookingPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/bookingPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/homePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/homePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styling/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.sass" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +71,7 @@
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.header.php">
+  <component name="RunManager" selected="JavaScript Debug.homePage.php">
     <configuration name="header.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pizza-project/Views/header.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -73,9 +83,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.homePage.php" />
         <item itemvalue="JavaScript Debug.header.php" />
         <item itemvalue="PHP Script.index.php" />
-        <item itemvalue="JavaScript Debug.homePage.php" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +100,7 @@
       <workItem from="1603729749957" duration="1596000" />
       <workItem from="1603736330193" duration="27792000" />
       <workItem from="1603874762413" duration="12766000" />
-      <workItem from="1603960144554" duration="24717000" />
+      <workItem from="1603960144554" duration="33595000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup mvc structure">
       <created>1603792215700</created>
@@ -190,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603990438441</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="delete not needed icons">
+      <created>1603990536544</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603990536544</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +239,8 @@
     <MESSAGE value="add gitignore" />
     <MESSAGE value="added bootstrap icons" />
     <MESSAGE value="starting basic layout homePage.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting basic layout homePage.php" />
+    <MESSAGE value="delete not needed icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete not needed icons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1603966892292">
@@ -241,38 +259,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603786889424" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1603983719186">
+    <state width="1877" height="407" key="GridCell.Tab.0.bottom" timestamp="1604011343616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603983719186" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1603983719186">
+    <state width="1877" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604011343616" />
+    <state width="1877" height="407" key="GridCell.Tab.0.center" timestamp="1604011343616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603983719186" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1603983719186">
+    <state width="1877" height="407" key="GridCell.Tab.0.center/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604011343616" />
+    <state width="1877" height="407" key="GridCell.Tab.0.left" timestamp="1604011343616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603983719186" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1603983719186">
+    <state width="1877" height="407" key="GridCell.Tab.0.left/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604011343616" />
+    <state width="1877" height="407" key="GridCell.Tab.0.right" timestamp="1604011343616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603983719186" />
-    <state width="1877" height="407" key="GridCell.Tab.1.bottom" timestamp="1603980492338">
+    <state width="1877" height="407" key="GridCell.Tab.0.right/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604011343616" />
+    <state width="1877" height="407" key="GridCell.Tab.1.bottom" timestamp="1604011343616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="407" key="GridCell.Tab.1.bottom/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603980492338" />
-    <state width="1877" height="407" key="GridCell.Tab.1.center" timestamp="1603980492338">
+    <state width="1877" height="407" key="GridCell.Tab.1.bottom/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604011343616" />
+    <state width="1877" height="407" key="GridCell.Tab.1.center" timestamp="1604011343616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="407" key="GridCell.Tab.1.center/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603980492338" />
-    <state width="1877" height="407" key="GridCell.Tab.1.left" timestamp="1603980492338">
+    <state width="1877" height="407" key="GridCell.Tab.1.center/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604011343616" />
+    <state width="1877" height="407" key="GridCell.Tab.1.left" timestamp="1604011343616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="407" key="GridCell.Tab.1.left/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603980492338" />
-    <state width="1877" height="407" key="GridCell.Tab.1.right" timestamp="1603980492338">
+    <state width="1877" height="407" key="GridCell.Tab.1.left/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604011343616" />
+    <state width="1877" height="407" key="GridCell.Tab.1.right" timestamp="1604011343616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="407" key="GridCell.Tab.1.right/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603980492338" />
+    <state width="1877" height="407" key="GridCell.Tab.1.right/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604011343616" />
     <state x="763" y="242" key="NewPhpClassDialog" timestamp="1603807062894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -285,10 +303,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603876240572" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603990447458">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603990541409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603990447458" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603990541409" />
     <state x="883" y="465" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1603876235812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
