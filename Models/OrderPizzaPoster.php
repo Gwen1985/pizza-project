@@ -27,7 +27,7 @@ class OrderPizzaPoster
     {
         try {
             $pdo = self::openConnection();
-            $sql = "INSERT INTO ordertable (`fname`, `lname`, `email`, `mobile-nr`, `address`, `zipcode`, `city`, `productname`, `productquantity`) VALUES ('" . $orders->getAuthorFn() . "', '" . $orders->getAuthorLn() . "', '" . $orders->getEmail() . "', '" . $orders->getMobileNr() . "', '" . $orders->getAddress() . "', '" . $orders->getZipcode() . "', '" . $orders->getCity() . "', '" . $orders->getProductName() . "', '" . $orders->getProductQuantity() . "')";
+            $sql = "INSERT INTO ordertable (`fname`, `lname`, `email`, `mobilenr`, `address`, `zipcode`, `city`, `productname`, `productquantity`) VALUES ('" . $orders->getAuthorFn() . "', '" . $orders->getAuthorLn() . "', '" . $orders->getEmail() . "', '" . $orders->getMobileNr() . "', '" . $orders->getAddress() . "', '" . $orders->getZipcode() . "', '" . $orders->getCity() . "', '" . $orders->getProductName() . "', '" . $orders->getProductQuantity() . "')";
             $handle = $pdo->prepare($sql);
             $handle->execute();
         } catch (Exception $e) {
