@@ -20,15 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0cf5053-43f8-46c2-8f64-eb1a17c78174" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Order.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/orderPizzaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/orderPizzaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/BookTablePoster.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/BookTablePoster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/OrderPizzaPoster.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/OrderPizzaPoster.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/bookingPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/bookingPage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/homePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/homePage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styling/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
       <workItem from="1603729749957" duration="1596000" />
       <workItem from="1603736330193" duration="27792000" />
       <workItem from="1603874762413" duration="12766000" />
-      <workItem from="1603960144554" duration="33595000" />
+      <workItem from="1603960144554" duration="39692000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup mvc structure">
       <created>1603792215700</created>
@@ -207,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603990536544</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="setting up front-end part header.php">
+      <created>1604015237454</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604015237454</updated>
+    </task>
+    <task id="LOCAL-00017" summary="testing booking form on bookingPage.php">
+      <created>1604015283157</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604015283157</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +252,9 @@
     <MESSAGE value="added bootstrap icons" />
     <MESSAGE value="starting basic layout homePage.php" />
     <MESSAGE value="delete not needed icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete not needed icons" />
+    <MESSAGE value="setting up front-end part header.php" />
+    <MESSAGE value="testing booking form on bookingPage.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing booking form on bookingPage.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="667" y="162" key="#PHP" timestamp="1603966892292">
@@ -251,6 +265,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="985" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603886017148" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1604018256962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604018256962" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603808660248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -291,10 +309,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.1.right/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604011343616" />
-    <state x="763" y="242" key="NewPhpClassDialog" timestamp="1603807062894">
+    <state x="763" y="242" key="NewPhpClassDialog" timestamp="1604017852374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="242" key="NewPhpClassDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603807062894" />
+    <state x="763" y="242" key="NewPhpClassDialog/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604017852374" />
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603966528439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -303,18 +321,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603876240572" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603990541409">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604015287765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603990541409" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604015287765" />
     <state x="883" y="465" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1603876235812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="883" y="465" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603876235812" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603809189505">
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604015807986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1603809189505" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-120.1080.2160.1080@0.0.1920.1040" timestamp="1604015807986" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603791659733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

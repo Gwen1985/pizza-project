@@ -18,10 +18,8 @@ class BookTablePoster
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
         ];
 
-        // Try to understand what happens here
         $pdo = new PDO('mysql:host=' . $dbhost . ';dbname=' . $db, $dbuser, $dbpass, $driverOptions);
 
-        // Why we do this here
         return $pdo;
     }
 
