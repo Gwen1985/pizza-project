@@ -35,6 +35,8 @@ class BookTablePoster
         }
     }
 
+//    POST BOOKING ON RESTAURANT SCREEN
+
 //    public static function get()
 //    {
 //        $data = [];

@@ -56,6 +56,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $zipcodeErr = $errorPrefix . $errorRequiredText . $errorSuffix;
     }
 
+    if (!empty($_POST['city'])) {
+        $city = sanitizeData($_POST['city']);
+    } else {
+        $isFormValid = false;
+        $cityErr = $errorPrefix . $errorRequiredText . $errorSuffix;
+    }
+
     if (!empty($_POST['productname'])) {
         $productname = sanitizeData($_POST['productname']);
     } else {

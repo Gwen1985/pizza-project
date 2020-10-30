@@ -1,5 +1,5 @@
 <div>
-    <?php require 'Views/orderPizzaViewForm.php'; ?>
-    <?php require 'Controllers/orderPizzaController.php'; ?>
-    <?php require 'Models/BookTablePoster.php'; ?>
+    <?php require_once 'orderPizzaViewForm.php'; ?>
+    <?php require_once 'Controllers/orderPizzaController.php'; ?>
+    <?php require_once 'Models/BookTablePoster.php'; ?>
 </div>
