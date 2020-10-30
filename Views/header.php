@@ -56,15 +56,17 @@
 
         </div>
 
-        <div class="row  text-light">
+        <div class="row">
 
             <div class="content col-md-2 ">
             </div>
 
-            <div class="content col-md-8 " id="bestPizza">
+            <div class="content col-md-8 text-light" id="bestPizza">
                 <h2>The Best Pizzeria In Belgium</h2>
+
                 <br>
-                <button class="btn btn-warning " type="button"><a href="bookingPage.php" class="text-light"> Book a table</a></button>
+
+                <a href="bookingPage.php" class="text-light btn btn-warning" role="button"> Book a table </a>
             </div>
 
             <div class="content col-md-2 ">
